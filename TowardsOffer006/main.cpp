@@ -10,34 +10,73 @@ using namespace std;
 NOTE：给出的所有元素都大于0，若数组大小为0，请返回0。
 */
 
+//Method 1：最粗暴的解法 153ms 616K
+//class Solution {
+//public:
+//	int minNumberInRotateArray(vector<int> rotateArray) {
+//		if (rotateArray.empty()) return 0;
+//
+//		int MinValue = rotateArray.front();
+//		int ValueCnt = rotateArray.size();
+//		while (ValueCnt--)
+//		{
+//			if (MinValue > rotateArray.front())
+//				MinValue = rotateArray.front();
+//
+//			__rotateArray(rotateArray);
+//		}
+//
+//		return MinValue;
+//	}
+//
+//private:
+//	void __rotateArray(vector<int>& vioArray) {
+//		if (vioArray.size() <= 1) return;
+//
+//		int Temp = vioArray.front();
+//
+//		int i = 1;
+//		for (; i < vioArray.size(); ++i)
+//			vioArray[i - 1] = vioArray[i];
+//		vioArray[i - 1] = Temp;
+//	}
+//};
+
+//Method 2：双指针二分法 35ms 600K
 class Solution {
 public:
 	int minNumberInRotateArray(vector<int> rotateArray) {
 		if (rotateArray.empty()) return 0;
 
-		int MinValue = rotateArray.front();
-		int ValueCnt = rotateArray.size();
-		while (ValueCnt--)
+		int Start = 0, End = rotateArray.size() - 1;
+		int Mid = Start;
+		while (rotateArray[Start] >= rotateArray[End])
 		{
-			if (MinValue > rotateArray.front())
-				MinValue = rotateArray.front();
+			if (End - Start == 1)
+			{
+				Mid = End;
+				break;
+			}
+			Mid = (Start + End) / 2;
 
-			__rotateArray(rotateArray);
+			if (rotateArray[Start] == rotateArray[End] && rotateArray[Mid] == rotateArray[End])
+			{
+				int MinValue = rotateArray[Start];
+				for (int i = Start + 1; i <= End; ++i)
+				{
+					if (MinValue < rotateArray[i])
+						MinValue = rotateArray[i];
+				}
+				return MinValue;
+			}
+
+			if (rotateArray[Start] <= rotateArray[Mid])
+				Start = Mid;
+			else if (rotateArray[End] >= rotateArray[Mid])
+				End = Mid;
 		}
 
-		return MinValue;
-	}
-
-private:
-	void __rotateArray(vector<int>& vioArray) {
-		if (vioArray.size() <= 1) return;
-
-		int Temp = vioArray.front();
-
-		int i = 1;
-		for (; i < vioArray.size(); ++i)
-			vioArray[i - 1] = vioArray[i];
-		vioArray[i - 1] = Temp;
+		return rotateArray[Mid];
 	}
 };
 
