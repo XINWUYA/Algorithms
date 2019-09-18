@@ -59,6 +59,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowardsOffer012(数值的�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowardsOffer013(调整数组顺序使奇数位于偶数前面)", "TowardsOffer013\TowardsOffer013.vcxproj", "{479A29FC-D90A-4389-A381-0DB14863CC56}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowardsOffer014(链表中倒数第k个节点)", "TowardsOffer014\TowardsOffer014.vcxproj", "{D9D39CDD-6AD7-4869-8886-1B351C77E828}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -243,6 +245,14 @@ Global
 		{479A29FC-D90A-4389-A381-0DB14863CC56}.Release|x64.Build.0 = Release|x64
 		{479A29FC-D90A-4389-A381-0DB14863CC56}.Release|x86.ActiveCfg = Release|Win32
 		{479A29FC-D90A-4389-A381-0DB14863CC56}.Release|x86.Build.0 = Release|Win32
+		{D9D39CDD-6AD7-4869-8886-1B351C77E828}.Debug|x64.ActiveCfg = Debug|x64
+		{D9D39CDD-6AD7-4869-8886-1B351C77E828}.Debug|x64.Build.0 = Debug|x64
+		{D9D39CDD-6AD7-4869-8886-1B351C77E828}.Debug|x86.ActiveCfg = Debug|Win32
+		{D9D39CDD-6AD7-4869-8886-1B351C77E828}.Debug|x86.Build.0 = Debug|Win32
+		{D9D39CDD-6AD7-4869-8886-1B351C77E828}.Release|x64.ActiveCfg = Release|x64
+		{D9D39CDD-6AD7-4869-8886-1B351C77E828}.Release|x64.Build.0 = Release|x64
+		{D9D39CDD-6AD7-4869-8886-1B351C77E828}.Release|x86.ActiveCfg = Release|Win32
+		{D9D39CDD-6AD7-4869-8886-1B351C77E828}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -270,6 +280,7 @@ Global
 		{A128925B-9280-404A-9C5F-BEC1D8E51CED} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
 		{E0538A92-8AA8-45FB-80A8-469DEB9B0802} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
 		{479A29FC-D90A-4389-A381-0DB14863CC56} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
+		{D9D39CDD-6AD7-4869-8886-1B351C77E828} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85D1FB6D-119C-489C-9F85-D31BB8FE354A}
