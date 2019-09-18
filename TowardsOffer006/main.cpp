@@ -43,40 +43,66 @@ NOTE：给出的所有元素都大于0，若数组大小为0，请返回0。
 //};
 
 //Method 2：双指针二分法 35ms 600K
+//class Solution {
+//public:
+//	int minNumberInRotateArray(vector<int> rotateArray) {
+//		if (rotateArray.empty()) return 0;
+//
+//		int Start = 0, End = rotateArray.size() - 1;
+//		int Mid = Start;
+//		while (rotateArray[Start] >= rotateArray[End])
+//		{
+//			if (End - Start == 1)
+//			{
+//				Mid = End;
+//				break;
+//			}
+//			Mid = (Start + End) / 2;
+//
+//			if (rotateArray[Start] == rotateArray[End] && rotateArray[Mid] == rotateArray[End])
+//			{
+//				int MinValue = rotateArray[Start];
+//				for (int i = Start + 1; i <= End; ++i)
+//				{
+//					if (MinValue < rotateArray[i])
+//						MinValue = rotateArray[i];
+//				}
+//				return MinValue;
+//			}
+//
+//			if (rotateArray[Start] <= rotateArray[Mid])
+//				Start = Mid;
+//			else if (rotateArray[End] >= rotateArray[Mid])
+//				End = Mid;
+//		}
+//
+//		return rotateArray[Mid];
+//	}
+//};
+
+//Method 3：25ms 716K
 class Solution {
 public:
 	int minNumberInRotateArray(vector<int> rotateArray) {
 		if (rotateArray.empty()) return 0;
 
 		int Start = 0, End = rotateArray.size() - 1;
-		int Mid = Start;
-		while (rotateArray[Start] >= rotateArray[End])
+		while (Start < End)
 		{
-			if (End - Start == 1)
-			{
-				Mid = End;
+			if (rotateArray[Start] < rotateArray[End])//当前数组为有序数组
 				break;
-			}
-			Mid = (Start + End) / 2;
+			
+			int Mid = (Start + End) >> 1;
 
-			if (rotateArray[Start] == rotateArray[End] && rotateArray[Mid] == rotateArray[End])
-			{
-				int MinValue = rotateArray[Start];
-				for (int i = Start + 1; i <= End; ++i)
-				{
-					if (MinValue < rotateArray[i])
-						MinValue = rotateArray[i];
-				}
-				return MinValue;
-			}
-
-			if (rotateArray[Start] <= rotateArray[Mid])
-				Start = Mid;
-			else if (rotateArray[End] >= rotateArray[Mid])
+			if (rotateArray[Start] < rotateArray[Mid])
+				Start = Mid + 1;
+			else if (rotateArray[End] > rotateArray[Mid])
 				End = Mid;
+			else
+				Start++;//巧妙避免了（1 0 1 1 1）
 		}
 
-		return rotateArray[Mid];
+		return rotateArray[Start];
 	}
 };
 
