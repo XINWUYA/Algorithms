@@ -53,6 +53,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowardsOffer009(变态跳�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowardsOffer010(矩形覆盖)", "TowardsOffer010\TowardsOffer010.vcxproj", "{BE737493-B94D-4F12-98D6-A93DB0282FFA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowardsOffer011(二进制中1的个数)", "TowardsOffer011\TowardsOffer011.vcxproj", "{A128925B-9280-404A-9C5F-BEC1D8E51CED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -213,6 +215,14 @@ Global
 		{BE737493-B94D-4F12-98D6-A93DB0282FFA}.Release|x64.Build.0 = Release|x64
 		{BE737493-B94D-4F12-98D6-A93DB0282FFA}.Release|x86.ActiveCfg = Release|Win32
 		{BE737493-B94D-4F12-98D6-A93DB0282FFA}.Release|x86.Build.0 = Release|Win32
+		{A128925B-9280-404A-9C5F-BEC1D8E51CED}.Debug|x64.ActiveCfg = Debug|x64
+		{A128925B-9280-404A-9C5F-BEC1D8E51CED}.Debug|x64.Build.0 = Debug|x64
+		{A128925B-9280-404A-9C5F-BEC1D8E51CED}.Debug|x86.ActiveCfg = Debug|Win32
+		{A128925B-9280-404A-9C5F-BEC1D8E51CED}.Debug|x86.Build.0 = Debug|Win32
+		{A128925B-9280-404A-9C5F-BEC1D8E51CED}.Release|x64.ActiveCfg = Release|x64
+		{A128925B-9280-404A-9C5F-BEC1D8E51CED}.Release|x64.Build.0 = Release|x64
+		{A128925B-9280-404A-9C5F-BEC1D8E51CED}.Release|x86.ActiveCfg = Release|Win32
+		{A128925B-9280-404A-9C5F-BEC1D8E51CED}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -237,6 +247,7 @@ Global
 		{3F7447E9-3A61-4866-B807-1FB4298EE57F} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
 		{56A80A74-99C6-484A-A538-9454AD0F198E} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
 		{BE737493-B94D-4F12-98D6-A93DB0282FFA} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
+		{A128925B-9280-404A-9C5F-BEC1D8E51CED} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85D1FB6D-119C-489C-9F85-D31BB8FE354A}
