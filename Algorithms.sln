@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowardsOffer007(斐波那�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowardsOffer008(跳台阶)", "TowardsOffer008\TowardsOffer008.vcxproj", "{3F7447E9-3A61-4866-B807-1FB4298EE57F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowardsOffer009(变态跳台阶)", "TowardsOffer009\TowardsOffer009.vcxproj", "{56A80A74-99C6-484A-A538-9454AD0F198E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -193,6 +195,14 @@ Global
 		{3F7447E9-3A61-4866-B807-1FB4298EE57F}.Release|x64.Build.0 = Release|x64
 		{3F7447E9-3A61-4866-B807-1FB4298EE57F}.Release|x86.ActiveCfg = Release|Win32
 		{3F7447E9-3A61-4866-B807-1FB4298EE57F}.Release|x86.Build.0 = Release|Win32
+		{56A80A74-99C6-484A-A538-9454AD0F198E}.Debug|x64.ActiveCfg = Debug|x64
+		{56A80A74-99C6-484A-A538-9454AD0F198E}.Debug|x64.Build.0 = Debug|x64
+		{56A80A74-99C6-484A-A538-9454AD0F198E}.Debug|x86.ActiveCfg = Debug|Win32
+		{56A80A74-99C6-484A-A538-9454AD0F198E}.Debug|x86.Build.0 = Debug|Win32
+		{56A80A74-99C6-484A-A538-9454AD0F198E}.Release|x64.ActiveCfg = Release|x64
+		{56A80A74-99C6-484A-A538-9454AD0F198E}.Release|x64.Build.0 = Release|x64
+		{56A80A74-99C6-484A-A538-9454AD0F198E}.Release|x86.ActiveCfg = Release|Win32
+		{56A80A74-99C6-484A-A538-9454AD0F198E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -215,6 +225,7 @@ Global
 		{C11816F5-2DD6-483B-B180-ED77CBEA88E9} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
 		{70F78488-7B98-4DE6-A89A-58018436366E} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
 		{3F7447E9-3A61-4866-B807-1FB4298EE57F} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
+		{56A80A74-99C6-484A-A538-9454AD0F198E} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85D1FB6D-119C-489C-9F85-D31BB8FE354A}
