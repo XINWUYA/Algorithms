@@ -63,6 +63,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowardsOffer014(链表中�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowardsOffer015(反转链表)", "TowardsOffer015\TowardsOffer015.vcxproj", "{C2C3C85E-87A7-4F78-95DD-E17581F9BACA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowardsOffer016(合并两个排序的链表)", "TowardsOffer016\TowardsOffer016.vcxproj", "{5406D0EC-0D83-4D55-BC7A-9E0BDC9AA27B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -263,6 +265,14 @@ Global
 		{C2C3C85E-87A7-4F78-95DD-E17581F9BACA}.Release|x64.Build.0 = Release|x64
 		{C2C3C85E-87A7-4F78-95DD-E17581F9BACA}.Release|x86.ActiveCfg = Release|Win32
 		{C2C3C85E-87A7-4F78-95DD-E17581F9BACA}.Release|x86.Build.0 = Release|Win32
+		{5406D0EC-0D83-4D55-BC7A-9E0BDC9AA27B}.Debug|x64.ActiveCfg = Debug|x64
+		{5406D0EC-0D83-4D55-BC7A-9E0BDC9AA27B}.Debug|x64.Build.0 = Debug|x64
+		{5406D0EC-0D83-4D55-BC7A-9E0BDC9AA27B}.Debug|x86.ActiveCfg = Debug|Win32
+		{5406D0EC-0D83-4D55-BC7A-9E0BDC9AA27B}.Debug|x86.Build.0 = Debug|Win32
+		{5406D0EC-0D83-4D55-BC7A-9E0BDC9AA27B}.Release|x64.ActiveCfg = Release|x64
+		{5406D0EC-0D83-4D55-BC7A-9E0BDC9AA27B}.Release|x64.Build.0 = Release|x64
+		{5406D0EC-0D83-4D55-BC7A-9E0BDC9AA27B}.Release|x86.ActiveCfg = Release|Win32
+		{5406D0EC-0D83-4D55-BC7A-9E0BDC9AA27B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -292,6 +302,7 @@ Global
 		{479A29FC-D90A-4389-A381-0DB14863CC56} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
 		{D9D39CDD-6AD7-4869-8886-1B351C77E828} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
 		{C2C3C85E-87A7-4F78-95DD-E17581F9BACA} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
+		{5406D0EC-0D83-4D55-BC7A-9E0BDC9AA27B} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85D1FB6D-119C-489C-9F85-D31BB8FE354A}
