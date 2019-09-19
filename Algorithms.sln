@@ -73,6 +73,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowardsOffer019(顺时针�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowardsOffer020(包含min函数的栈)", "TowardsOffer020\TowardsOffer020.vcxproj", "{8E041367-321F-43E1-841A-F935F9C35F80}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowardsOffer022(从上往下打印二叉树)", "TowardsOffer022\TowardsOffer022.vcxproj", "{CCD44049-C67F-4852-A9BE-B701982D9521}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -313,6 +315,14 @@ Global
 		{8E041367-321F-43E1-841A-F935F9C35F80}.Release|x64.Build.0 = Release|x64
 		{8E041367-321F-43E1-841A-F935F9C35F80}.Release|x86.ActiveCfg = Release|Win32
 		{8E041367-321F-43E1-841A-F935F9C35F80}.Release|x86.Build.0 = Release|Win32
+		{CCD44049-C67F-4852-A9BE-B701982D9521}.Debug|x64.ActiveCfg = Debug|x64
+		{CCD44049-C67F-4852-A9BE-B701982D9521}.Debug|x64.Build.0 = Debug|x64
+		{CCD44049-C67F-4852-A9BE-B701982D9521}.Debug|x86.ActiveCfg = Debug|Win32
+		{CCD44049-C67F-4852-A9BE-B701982D9521}.Debug|x86.Build.0 = Debug|Win32
+		{CCD44049-C67F-4852-A9BE-B701982D9521}.Release|x64.ActiveCfg = Release|x64
+		{CCD44049-C67F-4852-A9BE-B701982D9521}.Release|x64.Build.0 = Release|x64
+		{CCD44049-C67F-4852-A9BE-B701982D9521}.Release|x86.ActiveCfg = Release|Win32
+		{CCD44049-C67F-4852-A9BE-B701982D9521}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -347,6 +357,7 @@ Global
 		{21B428E6-DACC-44C7-83DD-00C373EACDF2} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
 		{2BCEE190-9D46-4179-B711-963911138AC3} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
 		{8E041367-321F-43E1-841A-F935F9C35F80} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
+		{CCD44049-C67F-4852-A9BE-B701982D9521} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85D1FB6D-119C-489C-9F85-D31BB8FE354A}
