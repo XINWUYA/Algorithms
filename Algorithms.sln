@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowardsOffer017(树的子�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowardsOffer018(二叉树的镜像)", "TowardsOffer018\TowardsOffer018.vcxproj", "{21B428E6-DACC-44C7-83DD-00C373EACDF2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TowardsOffer019(顺时针打印矩阵)", "TowardsOffer019\TowardsOffer019.vcxproj", "{2BCEE190-9D46-4179-B711-963911138AC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -293,6 +295,14 @@ Global
 		{21B428E6-DACC-44C7-83DD-00C373EACDF2}.Release|x64.Build.0 = Release|x64
 		{21B428E6-DACC-44C7-83DD-00C373EACDF2}.Release|x86.ActiveCfg = Release|Win32
 		{21B428E6-DACC-44C7-83DD-00C373EACDF2}.Release|x86.Build.0 = Release|Win32
+		{2BCEE190-9D46-4179-B711-963911138AC3}.Debug|x64.ActiveCfg = Debug|x64
+		{2BCEE190-9D46-4179-B711-963911138AC3}.Debug|x64.Build.0 = Debug|x64
+		{2BCEE190-9D46-4179-B711-963911138AC3}.Debug|x86.ActiveCfg = Debug|Win32
+		{2BCEE190-9D46-4179-B711-963911138AC3}.Debug|x86.Build.0 = Debug|Win32
+		{2BCEE190-9D46-4179-B711-963911138AC3}.Release|x64.ActiveCfg = Release|x64
+		{2BCEE190-9D46-4179-B711-963911138AC3}.Release|x64.Build.0 = Release|x64
+		{2BCEE190-9D46-4179-B711-963911138AC3}.Release|x86.ActiveCfg = Release|Win32
+		{2BCEE190-9D46-4179-B711-963911138AC3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -325,6 +335,7 @@ Global
 		{5406D0EC-0D83-4D55-BC7A-9E0BDC9AA27B} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
 		{4AF74DC5-5AEC-4961-AC84-7811A074796B} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
 		{21B428E6-DACC-44C7-83DD-00C373EACDF2} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
+		{2BCEE190-9D46-4179-B711-963911138AC3} = {4AE43309-F183-4F3D-9BCD-2A437DC83157}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85D1FB6D-119C-489C-9F85-D31BB8FE354A}
