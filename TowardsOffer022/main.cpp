@@ -29,11 +29,14 @@ public:
 			while (Cnt--)
 			{
 				TreeNode* pTempNode = NodeQueue.front();
+				NodeQueue.pop();
 				if (!pTempNode) continue;
 
 				ResultSet.push_back(pTempNode->val);
-				NodeQueue.push(pTempNode->left);
-				NodeQueue.push(pTempNode->right);
+				if (pTempNode->left)
+					NodeQueue.push(pTempNode->left);
+				if (pTempNode->right)
+					NodeQueue.push(pTempNode->right);
 			}
 		}
 
